@@ -1,7 +1,7 @@
 import React from "react";
 import { Radio } from "antd";
 import { Col, Row, Divider } from "antd";
-import "./style.css";
+import "../style.css";
 
 const Home = () => {
   return (
