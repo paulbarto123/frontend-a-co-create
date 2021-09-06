@@ -1,6 +1,7 @@
 import "./login.css";
+import { Link } from "react-router-dom";
 
-export default function Login() {
+export default function LoginAdmin() {
   return (
     <div className="login">
       <div className="loginWrapper">
@@ -16,9 +17,9 @@ export default function Login() {
             <h5 className="loginBoxTextSub"> Silahkan login, untuk memulai</h5>
             <input placeholder="Username" className="loginInput" />
             <input placeholder="Password" className="loginInput" />
+            <Link to="beranda-admin">
             <button className="loginButton">Masuk</button>
-            <span className="loginForgot">Belum punya akun?</span>
-            <button className="loginRegisterButton">Register</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import MyArticles from "./pages/member/myarticles/myarticles";
 import CreateProject from "./pages/member/createproject/createproject";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Enrollment from "./pages/admin/enrollment/Enrollment";
+import LoginAdmin from "./pages/admin/login/Login";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route path="/register" component={Register} />
           <Route path="/" exact component={Login} />
+          <Route path="/login-admin" component={LoginAdmin}/>
           <Route path="/member/beranda-artikel">
             <Dashboard>
               <MyArticles />
