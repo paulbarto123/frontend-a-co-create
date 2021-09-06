@@ -1,11 +1,11 @@
 import { Layout, Menu, Pagination, Divider } from "antd";
 import { MenuUnfoldOutlined, MenuFoldOutlined, HomeOutlined, FolderAddOutlined, MailOutlined, FolderOpenOutlined, FileAddOutlined, DatabaseOutlined, LogoutOutlined } from "@ant-design/icons";
 import React from "react";
-import "./style.css";
-import Home from "./home";
-import Project from "./project";
-import MyArticles from "./myarticles";
-import CreateProject from "./createproject";
+import "../style.css";
+import Home from "../home/home";
+import Project from "../project/project";
+import MyArticles from "../myarticles/myarticles";
+import CreateProject from "../createproject/createproject";
 
 const { Header, Sider, Content } = Layout;
 
