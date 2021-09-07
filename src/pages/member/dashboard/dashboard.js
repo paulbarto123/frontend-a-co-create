@@ -35,15 +35,11 @@ class Dashboard extends React.Component {
           </div>
           <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
             <Menu.Item key="1" icon={<HomeOutlined />}>
-              
-              <Button type="link" href="/member/beranda-project">
-              Beranda
-              </Button>
+            <Link to="/member/beranda-project"> Beranda</Link>
+            
             </Menu.Item>
             <Menu.Item key="2" icon={<FolderAddOutlined />}>
-              <Button type="link" href="/member/buat-project">
-              Buat Project Baru
-              </Button>
+              <Link to="/member/buat-project"> Buat Project Baru</Link>
              
             </Menu.Item>
             <Menu.Item key="3" icon={<FolderOpenOutlined />}>
